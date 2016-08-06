@@ -17,7 +17,7 @@ Follow these steps:
 
 * Change into the webapp folder and install python dependencies.
 
-  `pip install -r requirements.txt`
+  `pip install -r requirements.txt -t app/lib`
 
 * Copy the [vhost conf]("docs/python-webpp.conf") file from the docs folder to your Apache sites, change the relevant paths (to the web folder you just created) and enable it.
 
