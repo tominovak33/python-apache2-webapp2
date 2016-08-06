@@ -35,7 +35,7 @@ Example Virtual Hosts file:
       Require all granted
     </Directory>
 
-    WSGIScriptAlias / /var/www/python-webapp/app/main.wsgi
+    WSGIScriptAlias / /var/www/python-webapp/app/main.py
     Alias /static/ "/var/www/python-webapp/app/static/"
 
   </VirtualHost>
