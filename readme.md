@@ -19,7 +19,7 @@ Follow these steps:
 
   `pip install -r requirements.txt -t app/lib`
 
-* Copy the [vhost conf]("docs/python-webpp.conf") file from the docs folder to your Apache sites, change the relevant paths (to the web folder you just created) and enable it.
+* Copy the [vhost conf](docs/python-webpp.conf) file from the docs folder to your Apache sites, change the relevant paths (to the web folder you just created) and enable it.
 
 * Restart Apache
 
@@ -28,4 +28,4 @@ The site should now be available at the specified domain from the virtual hosts 
 
 Full list of install commands I used for setup:
 
-[Installation]("docs/readme.md")
+[Installation](docs/readme.md)
